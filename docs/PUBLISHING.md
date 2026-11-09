@@ -47,3 +47,9 @@ klibs.io is a catalog, not a package host. After Central publication:
 4. Check https://klibs.io/package/io.github.bawantha/shareinbox/0.1.0-alpha01/status .
 
 Update README's availability statement only once Central publication succeeds.
+
+## Initial release signing key
+
+Public fingerprint: `E54F7279E08D82C97279D6DC2FC4EA0081F5768F`.
+The public key is in `release-signing-public.asc` and on keyserver.ubuntu.com.
+The initial release was prepared for manual Central Portal upload, which requires no API token. The GitHub publishing workflow is available for future releases once its secrets are configured.
