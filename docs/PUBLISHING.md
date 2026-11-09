@@ -2,8 +2,8 @@
 
 Repository: https://github.com/bawantha/shareinbox-kmp
 
-Planned first release: `io.github.bawantha:shareinbox:0.1.0-alpha01`.
-This version is not yet on Maven Central. It is an alpha: physical-device share-sheet validation remains outstanding (see TDD.md).
+First published release: `io.github.bawantha:shareinbox:0.1.0-alpha01`.
+This version is available on Maven Central. It is an alpha: physical-device share-sheet validation remains outstanding (see TDD.md).
 
 ## One-time account setup
 

@@ -2,7 +2,7 @@
 
 Receive text, links, images and files shared **into** an Android or iOS app. Save each delivery to a local inbox, read it from shared Kotlin, and explicitly acknowledge it when processing finishes.
 
-**Status: 0.1.0-alpha01, Maven Central publication pending.** Android 8+ (API 26), iOS 15+ for the supplied Swift integration. JVM is included for storage testing and local consumers; it has no desktop share-target adapter. No backend, analytics, or network permissions.
+**Status: 0.1.0-alpha01, published on Maven Central.** Android 8+ (API 26), iOS 15+ for the supplied Swift integration. JVM is included for storage testing and local consumers; it has no desktop share-target adapter. No backend, analytics, or network permissions.
 
 ## What is included
 
@@ -28,13 +28,16 @@ The first native build downloads Kotlin/Native and LLVM. The pinned toolchain is
 
 ## Use from shared Kotlin
 
-Until published, include the module in your build or publish it locally:
+Add `mavenCentral()` to your repositories, then add this dependency:
 
-```sh
-./gradlew :shareinbox:publishToMavenLocal
+```kotlin
+commonMain.dependencies {
+    implementation("io.github.bawantha:shareinbox:0.1.0-alpha01")
+}
 ```
 
-Then add `mavenLocal()` and `implementation("io.github.bawantha:shareinbox:0.1.0-alpha01")` to `commonMain.dependencies`. These are local development coordinates, not a claim of Maven Central availability.
+[View on Maven Central](https://central.sonatype.com/artifact/io.github.bawantha/shareinbox/0.1.0-alpha01).
+This is an alpha release; physical-device share-sheet checks remain outstanding.
 
 ```kotlin
 val inbox = ShareInbox(privateDirectory)
@@ -101,4 +104,4 @@ Default limits: 20 attachments, 50 MiB per attachment, 100 MiB per delivery, and
 
 Use tests first for behavior changes. See [TDD](docs/TDD.md), [architecture](docs/ARCHITECTURE.md), and [publishing](docs/PUBLISHING.md). Public API and storage schema are versioned separately. Do not change the on-disk format without migration tests.
 
-MIT licensed. Source: [bawantha/shareinbox-kmp](https://github.com/bawantha/shareinbox-kmp). Maven Central publication and klibs.io indexing are pending.
+MIT licensed. Source: [bawantha/shareinbox-kmp](https://github.com/bawantha/shareinbox-kmp). Available on Maven Central. klibs.io indexing is pending mirror synchronization.
