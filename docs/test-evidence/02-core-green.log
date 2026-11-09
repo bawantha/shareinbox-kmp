@@ -1,0 +1,18 @@
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shareinbox:jvmProcessResources NO-SOURCE
+> Task :shareinbox:processJvmMainResources SKIPPED
+> Task :shareinbox:jvmTestProcessResources NO-SOURCE
+> Task :shareinbox:processJvmTestResources SKIPPED
+> Task :shareinbox:compileKotlinJvm
+> Task :shareinbox:compileJvmMainJava NO-SOURCE
+> Task :shareinbox:jvmMainClasses
+> Task :shareinbox:jvmJar
+> Task :shareinbox:compileTestKotlinJvm
+> Task :shareinbox:compileJvmTestJava NO-SOURCE
+> Task :shareinbox:jvmTestClasses
+> Task :shareinbox:jvmTest
+
+BUILD SUCCESSFUL in 1s
+5 actionable tasks: 5 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

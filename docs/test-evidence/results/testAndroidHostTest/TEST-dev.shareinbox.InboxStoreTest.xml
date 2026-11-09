@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="dev.shareinbox.InboxStoreTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-11-09T12:47:36.487Z" hostname="local-verification" time="0.033">
+  <properties />
+  <testcase name="emptyInboxHasNoItems" classname="dev.shareinbox.InboxStoreTest" time="0.009" />
+  <testcase name="exactByteLimitIsAccepted" classname="dev.shareinbox.InboxStoreTest" time="0.01" />
+  <testcase name="inputFailureClosesSourceAndRollsBackWholeShare" classname="dev.shareinbox.InboxStoreTest" time="0.002" />
+  <testcase name="closesAttachmentSourceWhenLimitIsExceeded" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="interruptedAcknowledgementIsNotReplayedAndNextMutationFinishesCleanup" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="interruptedStagingIsNeverDeliveredAndIsRecoveredOnNextWrite" classname="dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="rejectsEmptyShareInvalidIdAndExcessiveCountBeforeOpeningSource" classname="dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="oversizedAttachmentIsRejectedWithoutPartialDelivery" classname="dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="untrustedFilenameCannotEscapeInbox" classname="dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="acknowledgeRemovesPendingAndPreventsReplayAfterRestart" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="totalByteLimitAppliesAcrossAttachments" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="futureSchemaIsRejectedWithoutDataLoss" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="corruptManifestFailsExplicitlyWithoutDeletingData" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="duplicateDeliveryDoesNotReadAttachmentsOrCreateAnotherItem" classname="dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="keepsDifferentUserSharesEvenWhenContentMatches" classname="dev.shareinbox.InboxStoreTest" time="0.002" />
+  <testcase name="ownsCopiesAndKeepsDuplicateFilenamesSeparate" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="persistsTextAndUrlAcrossNewInstances" classname="dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="maliciousPersistedPathIsRejected" classname="dev.shareinbox.InboxStoreTest" time="0.001" />
+  <system-out />
+  <system-err>	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.robolectric.shadows.ShadowContentResolver$ContentResolverReflector$$Reflector15.openInputStream(Unknown Source)
+	at org.robolectric.shadows.ShadowContentResolver.openInputStream(ShadowContentResolver.java:198)
+	at android.content.ContentResolver.openInputStream(ContentResolver.java)
+	at dev.shareinbox.AndroidShareReceiver$receive$2.invokeSuspend$lambda$4$2(AndroidShareReceiver.kt:33)
+	at dev.shareinbox.InboxStore.receive$lambda$0(InboxStore.kt:87)
+	at dev.shareinbox.PlatformLockKt$platformLock$1.locked(PlatformLock.kt:20)
+	at dev.shareinbox.InboxStore.receive(InboxStore.kt:70)
+	at dev.shareinbox.AndroidShareReceiver$receive$2.invokeSuspend(AndroidShareReceiver.kt:36)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:798)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+
+</system-err>
+</testsuite>

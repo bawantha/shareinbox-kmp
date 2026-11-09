@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="ConsumerTest[jvm]" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-09T12:48:42.769Z" hostname="local-verification" time="0.057">
+  <properties />
+  <testcase name="consumesPublishedArtifact[jvm]" classname="ConsumerTest" time="0.055" />
+  <system-out />
+  <system-err />
+</testsuite>

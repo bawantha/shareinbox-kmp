@@ -1,0 +1,84 @@
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shareinbox:compileAndroidMain UP-TO-DATE
+> Task :shareinbox:androidPreBuild UP-TO-DATE
+> Task :shareinbox:preAndroidMainBuild UP-TO-DATE
+> Task :shareinbox:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :shareinbox:androidJar UP-TO-DATE
+> Task :shareinbox:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :shareinbox:generateAndroidHostTestAssets UP-TO-DATE
+> Task :shareinbox:preAndroidHostTestBuild UP-TO-DATE
+> Task :shareinbox:mergeAndroidHostTestAssets UP-TO-DATE
+> Task :shareinbox:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :shareinbox:checkAndroidHostTestAarMetadata UP-TO-DATE
+> Task :shareinbox:mapAndroidHostTestSourceSetPaths UP-TO-DATE
+> Task :shareinbox:generateAndroidHostTestResources UP-TO-DATE
+> Task :shareinbox:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :shareinbox:mergeAndroidHostTestResources UP-TO-DATE
+> Task :shareinbox:processAndroidMainManifest UP-TO-DATE
+> Task :shareinbox:processAndroidHostTestManifest UP-TO-DATE
+> Task :shareinbox:processAndroidHostTestResources UP-TO-DATE
+> Task :shareinbox:packageAndroidHostTestForUnitTest UP-TO-DATE
+> Task :shareinbox:generateAndroidHostTestConfig UP-TO-DATE
+> Task :shareinbox:processAndroidHostTestJavaRes NO-SOURCE
+> Task :shareinbox:processAndroidMainJavaRes UP-TO-DATE
+> Task :shareinbox:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :shareinbox:compileKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :shareinbox:iosSimulatorArm64ProcessResources NO-SOURCE
+> Task :shareinbox:iosSimulatorArm64MainKlibrary UP-TO-DATE
+> Task :shareinbox:compileTestKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :shareinbox:compileAndroidHostTest
+> Task :shareinbox:computeLocalPackageDependencyInputFiles
+
+> Task :shareinbox:testAndroidHostTest
+
+AndroidShareReceiverTest > retryAfterUriPermissionExpiresReturnsExistingReceipt FAILED
+    java.lang.SecurityException at AndroidShareReceiverTest.kt:113
+        Caused by: java.lang.SecurityException at AndroidShareReceiverTest.kt:113
+
+25 tests completed, 1 failed
+
+> Task :shareinbox:testAndroidHostTest FAILED
+> Task :shareinbox:generateSyntheticLinkageSwiftPMImportProjectForCinteropsAndLdDump SKIPPED
+> Task :shareinbox:serializeSwiftPMDependenciesMetadataForLockFiles
+> Task :shareinbox:generateUmbrellaPackageIdentifierBasedResolutionForDefault SKIPPED
+> Task :shareinbox:fetchUmbrellaPackageIdentifierForDefault SKIPPED
+> Task :shareinbox:syncPersistedPackageResolvedToSynthetic SKIPPED
+> Task :shareinbox:fetchSyntheticImportProjectPackages SKIPPED
+> Task :shareinbox:convertSyntheticImportProjectIntoDefFileIphonesimulator
+> Task :shareinbox:linkDebugTestIosSimulatorArm64
+
+dev.shareinbox.IosShareInboxTest.nativeWriterAndHostSharePersistentInbox[iosSimulatorArm64] FAILED
+    kotlin.NotImplementedError at null:-1
+
+dev.shareinbox.IosShareInboxTest.appGroupConfigurationErrorsAreExplicit[iosSimulatorArm64] FAILED
+    kotlin.AssertionError at null:-1
+
+> Task :shareinbox:iosSimulatorArm64Test FAILED
+
+17 tests completed, 2 failed
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':shareinbox:testAndroidHostTest'.
+> There were failing tests. See the report at: file://<project>/shareinbox/build/reports/tests/testAndroidHostTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':shareinbox:iosSimulatorArm64Test'.
+> There were failing tests. See the report at: file://<project>/shareinbox/build/reports/tests/iosSimulatorArm64Test/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+==============================================================================
+
+BUILD FAILED in 21s
+28 actionable tasks: 8 executed, 20 up-to-date

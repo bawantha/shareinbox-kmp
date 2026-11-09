@@ -1,0 +1,43 @@
+[0/1] Planning build
+Building for debugging...
+[0/3] Write sources
+[1/3] Write swift-version--58304C5D6DBC2206.txt
+[3/5] Emitting module ShareInboxExtensionTests
+[4/5] Compiling ShareInboxExtensionTests ShareLoaderTests.swift
+[4/6] Write Objects.LinkFileList
+[5/6] Linking ShareInboxExtensionPackageTests
+Build complete! (0.84s)
+Test Suite 'All tests' started at 2026-11-09 23:44:09.707.
+Test Suite 'ShareInboxExtensionPackageTests.xctest' started at 2026-11-09 23:44:09.707.
+Test Suite 'ShareLoaderTests' started at 2026-11-09 23:44:09.707.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testCopiesBorrowedFilesAndKeepsDuplicateNamesSeparate]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testCopiesBorrowedFilesAndKeepsDuplicateNamesSeparate]' passed (0.008 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testExactLimitAccepted]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testExactLimitAccepted]' passed (0.002 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testFailureAfterFirstFileCleansWholeDelivery]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testFailureAfterFirstFileCleansWholeDelivery]' passed (0.002 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testImportsFileURLRepresentation]' started.
+<project>/ios-support/Sources/ShareInboxExtension/ShareLoader.swift:84: error: -[ShareInboxExtensionTests.ShareLoaderTests testImportsFileURLRepresentation] : failed: caught error: "unsupportedType"
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testImportsFileURLRepresentation]' failed (0.048 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsText]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsText]' passed (0.001 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsURL]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsURL]' passed (0.001 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsEmptyInput]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsEmptyInput]' passed (0.000 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsExcessiveItems]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsExcessiveItems]' passed (0.000 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsOversizedFileAndCleansPartialCopies]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsOversizedFileAndCleansPartialCopies]' passed (0.003 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testTotalLimitSpansAttachments]' started.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testTotalLimitSpansAttachments]' passed (0.004 seconds).
+Test Suite 'ShareLoaderTests' failed at 2026-11-09 23:44:09.776.
+	 Executed 10 tests, with 1 failure (1 unexpected) in 0.068 (0.069) seconds
+Test Suite 'ShareInboxExtensionPackageTests.xctest' failed at 2026-11-09 23:44:09.776.
+	 Executed 10 tests, with 1 failure (1 unexpected) in 0.068 (0.069) seconds
+Test Suite 'All tests' failed at 2026-11-09 23:44:09.776.
+	 Executed 10 tests, with 1 failure (1 unexpected) in 0.068 (0.070) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

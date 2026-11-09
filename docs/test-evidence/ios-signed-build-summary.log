@@ -1,0 +1,4 @@
+2026-11-09 23:48:35.897 appintentsmetadataprocessor[84432:22234567] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+warning: not stripping binary because it is signed: <project>/build/ios-sample/Build/Products/Debug-iphonesimulator/ShareInboxExtension.appex/__preview.dylibwarning: not stripping binary because it is signed: <project>/build/ios-sample/Build/Products/Debug-iphonesimulator/ShareInboxExtension.appex/ShareInboxExtension.debug.dylibwarning: not stripping binary because it is signed: <project>/build/ios-sample/Build/Products/Debug-iphonesimulator/ShareInboxExtension.appex/ShareInboxExtension (in target 'ShareInboxDemo' from project 'ShareInboxDemo')
+2026-11-09 23:48:36.315 appintentsmetadataprocessor[84444:22234632] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+** BUILD SUCCEEDED **

@@ -1,0 +1,86 @@
+> Task :shareinbox:androidPreBuild UP-TO-DATE
+> Task :sample-android:preBuild UP-TO-DATE
+> Task :sample-android:preDebugBuild UP-TO-DATE
+> Task :shareinbox:preAndroidMainBuild UP-TO-DATE
+> Task :sample-android:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :shareinbox:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :sample-android:generateDebugResources
+> Task :sample-android:packageDebugResources
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sample-android:processDebugNavigationResources
+> Task :sample-android:javaPreCompileDebug UP-TO-DATE
+> Task :sample-android:generateDebugAssets UP-TO-DATE
+> Task :sample-android:mergeDebugAssets UP-TO-DATE
+> Task :sample-android:compressDebugAssets UP-TO-DATE
+> Task :sample-android:desugarDebugFileDependencies UP-TO-DATE
+> Task :sample-android:mapDebugSourceSetPaths
+> Task :sample-android:compileDebugNavigationResources UP-TO-DATE
+> Task :sample-android:parseDebugLocalResources
+> Task :shareinbox:compileAndroidMain UP-TO-DATE
+> Task :shareinbox:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :shareinbox:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :shareinbox:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :sample-android:generateDebugRFile UP-TO-DATE
+> Task :shareinbox:processAndroidMainManifest UP-TO-DATE
+> Task :shareinbox:processAndroidMainJavaRes UP-TO-DATE
+> Task :sample-android:mergeDebugResources
+> Task :shareinbox:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :shareinbox:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :shareinbox:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :shareinbox:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :shareinbox:checkAndroidMainAarMetadata UP-TO-DATE
+> Task :sample-android:checkDebugAarMetadata UP-TO-DATE
+> Task :sample-android:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :sample-android:extractDeepLinksDebug UP-TO-DATE
+> Task :shareinbox:extractAndroidMainAnnotations UP-TO-DATE
+> Task :sample-android:processDebugMainManifest
+> Task :shareinbox:mergeAndroidMainJavaResource UP-TO-DATE
+> Task :shareinbox:syncAndroidMainLibJars UP-TO-DATE
+> Task :shareinbox:bundleAndroidMainLocalLintAar UP-TO-DATE
+> Task :shareinbox:createFullJarAndroidMain UP-TO-DATE
+> Task :shareinbox:prepareLintJarForPublish UP-TO-DATE
+> Task :shareinbox:preAndroidHostTestBuild UP-TO-DATE
+> Task :sample-android:processDebugManifest
+> Task :sample-android:checkDebugDuplicateClasses UP-TO-DATE
+> Task :sample-android:mergeExtDexDebug UP-TO-DATE
+> Task :sample-android:mergeLibDexDebug UP-TO-DATE
+> Task :sample-android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sample-android:mergeDebugNativeLibs NO-SOURCE
+> Task :sample-android:stripDebugDebugSymbols NO-SOURCE
+> Task :sample-android:validateSigningDebug UP-TO-DATE
+> Task :sample-android:writeDebugAppMetadata UP-TO-DATE
+> Task :sample-android:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :sample-android:preDebugAndroidTestBuild SKIPPED
+> Task :sample-android:extractProguardFiles UP-TO-DATE
+> Task :sample-android:preDebugUnitTestBuild UP-TO-DATE
+> Task :sample-android:processDebugManifestForPackage
+> Task :shareinbox:generateAndroidHostTestLintModel UP-TO-DATE
+> Task :shareinbox:lintAnalyzeAndroidHostTest UP-TO-DATE
+> Task :sample-android:processDebugResources
+> Task :sample-android:compileDebugKotlin
+> Task :sample-android:compileDebugJavaWithJavac NO-SOURCE
+> Task :sample-android:dexBuilderDebug
+> Task :sample-android:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :sample-android:processDebugJavaRes UP-TO-DATE
+> Task :sample-android:mergeDebugJavaResource UP-TO-DATE
+> Task :sample-android:bundleDebugClassesToCompileJar
+> Task :sample-android:mergeProjectDexDebug
+> Task :sample-android:generateDebugLintReportModel
+> Task :sample-android:generateDebugAndroidTestLintModel
+> Task :sample-android:generateDebugUnitTestLintModel
+> Task :sample-android:packageDebug
+> Task :sample-android:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :sample-android:assembleDebug
+> Task :sample-android:lintAnalyzeDebugAndroidTest
+> Task :sample-android:lintAnalyzeDebugUnitTest
+> Task :sample-android:lintAnalyzeDebug
+
+> Task :sample-android:lintReportDebug
+Wrote HTML report to file://<project>/sample-android/build/reports/lint-results-debug.html
+
+> Task :sample-android:lintDebug
+
+BUILD SUCCESSFUL in 2s
+64 actionable tasks: 24 executed, 40 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

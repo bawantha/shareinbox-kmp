@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShareInbox Demo</string>
+    <string name="share_hint">Share text, photos, or a PDF to ShareInbox Demo.</string>
+    <string name="saved">Saved to inbox</string>
+    <string name="import_failed">Import failed: %1$s</string>
+    <string name="inbox_error">Inbox error: %1$s</string>
+    <string name="empty_inbox">Your inbox is empty.</string>
+    <string name="attachment_description">%1$s · %2$s</string>
+    <string name="acknowledge">Acknowledge and delete</string>
+    <string name="acknowledge_failed">Could not acknowledge: %1$s</string>
+</resources>

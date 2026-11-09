@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="dev.shareinbox.AndroidShareReceiverTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-09T12:47:33.595Z" hostname="local-verification" time="2.885">
+  <properties />
+  <testcase name="usesClipDataWhenStreamExtrasAreAbsent" classname="dev.shareinbox.AndroidShareReceiverTest" time="2.649" />
+  <testcase name="failingSecondAttachmentDoesNotDeliverFirst" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.023" />
+  <testcase name="importsContentUriWithProviderFilenameAndMimeType" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.011" />
+  <testcase name="enforcesLimitsOnActualStreamBytes" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.011" />
+  <testcase name="ignoresLauncherIntent" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.01" />
+  <testcase name="receivesTextAndPreservesDeliveryId" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.01" />
+  <testcase name="receivesUrlAsTextWithoutDiscardingIt" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.009" />
+  <testcase name="retryAfterUriPermissionExpiresReturnsExistingReceipt" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.011" />
+  <testcase name="rejectsFileUrisInsteadOfReadingAppPrivatePaths" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.008" />
+  <testcase name="importsMultipleAttachmentsAndTextAtomically" classname="dev.shareinbox.AndroidShareReceiverTest" time="0.011" />
+  <system-out />
+  <system-err />
+</testsuite>

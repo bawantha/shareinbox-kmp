@@ -1,0 +1,78 @@
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shareinbox:jvmProcessResources NO-SOURCE
+> Task :shareinbox:processJvmMainResources SKIPPED
+> Task :shareinbox:jvmTestProcessResources NO-SOURCE
+> Task :shareinbox:processJvmTestResources SKIPPED
+> Task :shareinbox:compileKotlinJvm
+> Task :shareinbox:compileJvmMainJava NO-SOURCE
+> Task :shareinbox:jvmMainClasses
+> Task :shareinbox:jvmJar
+> Task :shareinbox:compileTestKotlinJvm
+> Task :shareinbox:compileJvmTestJava NO-SOURCE
+> Task :shareinbox:jvmTestClasses
+
+> Task :shareinbox:jvmTest FAILED
+
+InboxStoreTest[jvm] > emptyInboxHasNoItems[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:16
+
+InboxStoreTest[jvm] > exactByteLimitIsAccepted[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:86
+
+InboxStoreTest[jvm] > inputFailureClosesSourceAndRollsBackWholeShare[jvm] FAILED
+    java.lang.AssertionError at InboxStoreTest.kt:91
+        Caused by: kotlin.NotImplementedError at InboxStoreTest.kt:92
+
+InboxStoreTest[jvm] > interruptedStagingIsNeverDeliveredAndIsRecoveredOnNextWrite[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:111
+
+InboxStoreTest[jvm] > rejectsEmptyShareInvalidIdAndExcessiveCountBeforeOpeningSource[jvm] FAILED
+    java.lang.AssertionError at InboxStoreTest.kt:100
+        Caused by: kotlin.NotImplementedError at InboxStoreTest.kt:100
+
+InboxStoreTest[jvm] > oversizedAttachmentIsRejectedWithoutPartialDelivery[jvm] FAILED
+    java.lang.AssertionError at InboxStoreTest.kt:69
+        Caused by: kotlin.NotImplementedError at InboxStoreTest.kt:70
+
+InboxStoreTest[jvm] > untrustedFilenameCannotEscapeInbox[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:62
+
+InboxStoreTest[jvm] > acknowledgeRemovesPendingAndPreventsReplayAfterRestart[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:42
+
+InboxStoreTest[jvm] > totalByteLimitAppliesAcrossAttachments[jvm] FAILED
+    java.lang.AssertionError at InboxStoreTest.kt:77
+        Caused by: kotlin.NotImplementedError at InboxStoreTest.kt:78
+
+InboxStoreTest[jvm] > corruptManifestFailsExplicitlyWithoutDeletingData[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:120
+
+InboxStoreTest[jvm] > duplicateDeliveryDoesNotReadAttachmentsOrCreateAnotherItem[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:33
+
+InboxStoreTest[jvm] > keepsDifferentUserSharesEvenWhenContentMatches[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:27
+
+InboxStoreTest[jvm] > ownsCopiesAndKeepsDuplicateFilenamesSeparate[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:54
+
+InboxStoreTest[jvm] > persistsTextAndUrlAcrossNewInstances[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:19
+
+InboxStoreTest[jvm] > maliciousPersistedPathIsRejected[jvm] FAILED
+    kotlin.NotImplementedError at InboxStoreTest.kt:128
+
+15 tests completed, 15 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shareinbox:jvmTest'.
+> There were failing tests. See the report at: file://<project>/shareinbox/build/reports/tests/jvmTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 13s
+5 actionable tasks: 5 executed

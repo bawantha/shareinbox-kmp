@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-11-09T12:47:37.649Z" hostname="local-verification" time="0.001">
+  <properties />
+  <testcase name="emptyInboxHasNoItems[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="persistsTextAndUrlAcrossNewInstances[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="keepsDifferentUserSharesEvenWhenContentMatches[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="duplicateDeliveryDoesNotReadAttachmentsOrCreateAnotherItem[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="acknowledgeRemovesPendingAndPreventsReplayAfterRestart[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.001" />
+  <testcase name="ownsCopiesAndKeepsDuplicateFilenamesSeparate[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="untrustedFilenameCannotEscapeInbox[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="oversizedAttachmentIsRejectedWithoutPartialDelivery[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="totalByteLimitAppliesAcrossAttachments[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="exactByteLimitIsAccepted[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="inputFailureClosesSourceAndRollsBackWholeShare[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="rejectsEmptyShareInvalidIdAndExcessiveCountBeforeOpeningSource[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="interruptedStagingIsNeverDeliveredAndIsRecoveredOnNextWrite[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="corruptManifestFailsExplicitlyWithoutDeletingData[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="maliciousPersistedPathIsRejected[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="closesAttachmentSourceWhenLimitIsExceeded[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="futureSchemaIsRejectedWithoutDataLoss[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <testcase name="interruptedAcknowledgementIsNotReplayedAndNextMutationFinishesCleanup[iosSimulatorArm64]" classname="iosSimulatorArm64Test.dev.shareinbox.InboxStoreTest" time="0.0" />
+  <system-out />
+  <system-err />
+</testsuite>

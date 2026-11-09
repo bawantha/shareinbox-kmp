@@ -1,0 +1,46 @@
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shareinbox:jvmProcessResources NO-SOURCE
+> Task :shareinbox:processJvmMainResources SKIPPED
+> Task :shareinbox:jvmTestProcessResources NO-SOURCE
+> Task :shareinbox:processJvmTestResources SKIPPED
+> Task :shareinbox:compileKotlinJvm
+> Task :shareinbox:compileJvmMainJava NO-SOURCE
+> Task :shareinbox:jvmMainClasses
+> Task :shareinbox:jvmJar
+> Task :shareinbox:compileTestKotlinJvm
+> Task :shareinbox:compileJvmTestJava NO-SOURCE
+> Task :shareinbox:jvmTestClasses
+
+> Task :shareinbox:jvmTest FAILED
+
+ShareInboxIntegrationTest[jvm] > cancellationDoesNotStartImport[jvm] FAILED
+    kotlin.NotImplementedError at ShareInboxIntegrationTest.kt:53
+
+ShareInboxIntegrationTest[jvm] > rejectsNonPositivePollInterval[jvm] FAILED
+    java.lang.AssertionError at ShareInboxIntegrationTest.kt:38
+        Caused by: kotlin.NotImplementedError at ShareInboxIntegrationTest.kt:38
+
+ShareInboxIntegrationTest[jvm] > independentInstancesObserveIncomingItemsAndAcknowledgements[jvm] FAILED
+    kotlin.NotImplementedError at ShareInboxIntegrationTest.kt:27
+
+ShareInboxIntegrationTest[jvm] > concurrentWritersDoNotLoseItemsAndDeduplicateSameDelivery[jvm] FAILED
+    java.util.concurrent.ExecutionException at ShareInboxIntegrationTest.kt:47
+        Caused by: kotlin.NotImplementedError at ShareInboxIntegrationTest.kt:45
+
+ShareInboxIntegrationTest[jvm] > receivesCopiesThatSurviveSourceDeletionAndRestart[jvm] FAILED
+    kotlin.NotImplementedError at ShareInboxIntegrationTest.kt:17
+
+20 tests completed, 5 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shareinbox:jvmTest'.
+> There were failing tests. See the report at: file://<project>/shareinbox/build/reports/tests/jvmTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 1s
+5 actionable tasks: 5 executed

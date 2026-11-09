@@ -1,0 +1,6 @@
+iPhone 17 Pro simulator, iOS 26.5
+App installed and launched: dev.shareinbox.sample
+App Group resolved: group.dev.shareinbox.sample
+Empty inbox rendered without an error; see ios-launch.png.
+Simulator shut down after verification.
+This is a launch check, not a system share-sheet round-trip test.

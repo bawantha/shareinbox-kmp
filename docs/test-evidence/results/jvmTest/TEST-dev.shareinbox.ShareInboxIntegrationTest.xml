@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="ShareInboxIntegrationTest[jvm]" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-09T12:47:32.065Z" hostname="local-verification" time="0.249">
+  <properties />
+  <testcase name="cancellationDoesNotStartImport[jvm]" classname="dev.shareinbox.ShareInboxIntegrationTest" time="0.019" />
+  <testcase name="rejectsNonPositivePollInterval[jvm]" classname="dev.shareinbox.ShareInboxIntegrationTest" time="0.001" />
+  <testcase name="independentInstancesObserveIncomingItemsAndAcknowledgements[jvm]" classname="dev.shareinbox.ShareInboxIntegrationTest" time="0.013" />
+  <testcase name="concurrentWritersDoNotLoseItemsAndDeduplicateSameDelivery[jvm]" classname="dev.shareinbox.ShareInboxIntegrationTest" time="0.03" />
+  <testcase name="independentProcessesSerializeImportsWithTheOsLock[jvm]" classname="dev.shareinbox.ShareInboxIntegrationTest" time="0.181" />
+  <testcase name="receivesCopiesThatSurviveSourceDeletionAndRestart[jvm]" classname="dev.shareinbox.ShareInboxIntegrationTest" time="0.005" />
+  <system-out />
+  <system-err />
+</testsuite>

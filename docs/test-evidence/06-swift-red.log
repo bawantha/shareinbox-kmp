@@ -1,0 +1,54 @@
+Building for debugging...
+[0/7] Write sources
+[2/7] <project>/ios-support/.build/arm64-apple-macosx/debug/ShareInboxExtensionPackageTests.derived/runner.swift
+[3/7] Write sources
+[4/7] Write swift-version--58304C5D6DBC2206.txt
+[6/9] Emitting module ShareInboxExtension
+[7/9] Compiling ShareInboxExtension ShareLoader.swift
+[8/11] Emitting module ShareInboxExtensionTests
+[9/11] Compiling ShareInboxExtensionTests ShareLoaderTests.swift
+[10/13] Emitting module ShareInboxExtensionPackageTests
+[11/13] Compiling ShareInboxExtensionPackageTests runner.swift
+[11/13] Write Objects.LinkFileList
+[12/13] Linking ShareInboxExtensionPackageTests
+Build complete! (9.23s)
+Test Suite 'All tests' started at 2026-11-09 23:40:37.396.
+Test Suite 'ShareInboxExtensionPackageTests.xctest' started at 2026-11-09 23:40:37.397.
+Test Suite 'ShareLoaderTests' started at 2026-11-09 23:40:37.397.
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testCopiesBorrowedFilesAndKeepsDuplicateNamesSeparate]' started.
+<project>/ios-support/Sources/ShareInboxExtension/ShareLoader.swift:23: error: -[ShareInboxExtensionTests.ShareLoaderTests testCopiesBorrowedFilesAndKeepsDuplicateNamesSeparate] : failed: caught error: "notImplemented"
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testCopiesBorrowedFilesAndKeepsDuplicateNamesSeparate]' failed (0.106 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testExactLimitAccepted]' started.
+<project>/ios-support/Sources/ShareInboxExtension/ShareLoader.swift:23: error: -[ShareInboxExtensionTests.ShareLoaderTests testExactLimitAccepted] : failed: caught error: "notImplemented"
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testExactLimitAccepted]' failed (0.001 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsText]' started.
+<project>/ios-support/Sources/ShareInboxExtension/ShareLoader.swift:23: error: -[ShareInboxExtensionTests.ShareLoaderTests testLoadsText] : failed: caught error: "notImplemented"
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsText]' failed (0.000 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsURL]' started.
+<project>/ios-support/Sources/ShareInboxExtension/ShareLoader.swift:23: error: -[ShareInboxExtensionTests.ShareLoaderTests testLoadsURL] : failed: caught error: "notImplemented"
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testLoadsURL]' failed (0.000 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsEmptyInput]' started.
+<project>/ios-support/Tests/ShareInboxExtensionTests/ShareLoaderTests.swift:71: error: -[ShareInboxExtensionTests.ShareLoaderTests testRejectsEmptyInput] : failed - Unexpected error: notImplemented
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsEmptyInput]' failed (0.000 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsExcessiveItems]' started.
+<project>/ios-support/Tests/ShareInboxExtensionTests/ShareLoaderTests.swift:77: error: -[ShareInboxExtensionTests.ShareLoaderTests testRejectsExcessiveItems] : failed - Unexpected error: notImplemented
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsExcessiveItems]' failed (0.000 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsOversizedFileAndCleansPartialCopies]' started.
+<project>/ios-support/Tests/ShareInboxExtensionTests/ShareLoaderTests.swift:54: error: -[ShareInboxExtensionTests.ShareLoaderTests testRejectsOversizedFileAndCleansPartialCopies] : failed - Unexpected error: notImplemented
+<project>/ios-support/Tests/ShareInboxExtensionTests/ShareLoaderTests.swift:55: error: -[ShareInboxExtensionTests.ShareLoaderTests testRejectsOversizedFileAndCleansPartialCopies] : XCTAssertEqual failed: threw error "Error Domain=NSCocoaErrorDomain Code=260 "The folder “staging” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/var/folders/xc/yhwbw2sx3p3b41fh01pgncww0000gn/T/B3D8CEA3-12EC-4308-9BC7-2F2114801C91/staging, NSURL=file:///var/folders/xc/yhwbw2sx3p3b41fh01pgncww0000gn/T/B3D8CEA3-12EC-4308-9BC7-2F2114801C91/staging, NSUnderlyingError=0x77b0a52c0 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}"
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testRejectsOversizedFileAndCleansPartialCopies]' failed (0.001 seconds).
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testTotalLimitSpansAttachments]' started.
+<project>/ios-support/Tests/ShareInboxExtensionTests/ShareLoaderTests.swift:61: error: -[ShareInboxExtensionTests.ShareLoaderTests testTotalLimitSpansAttachments] : failed - Unexpected error: notImplemented
+Test Case '-[ShareInboxExtensionTests.ShareLoaderTests testTotalLimitSpansAttachments]' failed (0.001 seconds).
+Test Suite 'ShareLoaderTests' failed at 2026-11-09 23:40:37.508.
+	 Executed 8 tests, with 9 failures (5 unexpected) in 0.110 (0.111) seconds
+Test Suite 'ShareInboxExtensionPackageTests.xctest' failed at 2026-11-09 23:40:37.508.
+	 Executed 8 tests, with 9 failures (5 unexpected) in 0.110 (0.111) seconds
+Test Suite 'All tests' failed at 2026-11-09 23:40:37.508.
+	 Executed 8 tests, with 9 failures (5 unexpected) in 0.110 (0.113) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

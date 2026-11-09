@@ -1,0 +1,23 @@
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :jvmProcessResources NO-SOURCE
+> Task :processJvmMainResources SKIPPED
+> Task :jvmTestProcessResources NO-SOURCE
+> Task :processJvmTestResources SKIPPED
+> Task :transformCommonMainDependenciesMetadata
+> Task :downloadKotlinNativeDistribution
+> Task :compileCommonMainKotlinMetadata
+> Task :compileKotlinJvm
+> Task :compileKotlinIosSimulatorArm64
+> Task :compileJvmMainJava NO-SOURCE
+> Task :jvmMainClasses
+> Task :jvmJar
+> Task :compileTestKotlinJvm
+> Task :compileJvmTestJava NO-SOURCE
+> Task :jvmTestClasses
+> Task :jvmTest
+
+BUILD SUCCESSFUL in 10s
+9 actionable tasks: 9 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

@@ -1,0 +1,73 @@
+Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shareinbox:androidPreBuild UP-TO-DATE
+> Task :shareinbox:preAndroidMainBuild UP-TO-DATE
+> Task :shareinbox:androidJar
+> Task :shareinbox:generateAndroidHostTestAssets UP-TO-DATE
+> Task :shareinbox:preAndroidHostTestBuild UP-TO-DATE
+> Task :shareinbox:compileAndroidMain
+> Task :shareinbox:mergeAndroidHostTestAssets
+> Task :shareinbox:writeAndroidMainAarMetadata
+> Task :shareinbox:mapAndroidHostTestSourceSetPaths
+> Task :shareinbox:bundleAndroidMainClassesToCompileJar
+> Task :shareinbox:bundleAndroidMainClassesToRuntimeJar
+> Task :shareinbox:generateAndroidHostTestResources
+> Task :shareinbox:checkAndroidHostTestAarMetadata
+> Task :shareinbox:generateAndroidMainEmptyResourceFiles
+> Task :shareinbox:mergeAndroidHostTestResources
+> Task :shareinbox:processAndroidHostTestJavaRes NO-SOURCE
+> Task :shareinbox:processAndroidMainJavaRes
+> Task :shareinbox:processAndroidMainManifest
+> Task :shareinbox:processAndroidHostTestManifest
+> Task :shareinbox:processAndroidHostTestResources
+> Task :shareinbox:packageAndroidHostTestForUnitTest
+> Task :shareinbox:generateAndroidHostTestConfig
+> Task :shareinbox:compileAndroidHostTest
+> Task :shareinbox:testAndroidHostTest
+
+AndroidShareReceiverTest > usesClipDataWhenStreamExtrasAreAbsent FAILED
+    kotlin.NotImplementedError at AndroidShareReceiverTest.kt:66
+
+AndroidShareReceiverTest > failingSecondAttachmentDoesNotDeliverFirst FAILED
+    java.lang.AssertionError at AndroidShareReceiverTest.kt:79
+        Caused by: kotlin.NotImplementedError at AndroidShareReceiverTest.kt:79
+
+AndroidShareReceiverTest > importsContentUriWithProviderFilenameAndMimeType FAILED
+    kotlin.NotImplementedError at AndroidShareReceiverTest.kt:50
+
+AndroidShareReceiverTest > enforcesLimitsOnActualStreamBytes FAILED
+    java.lang.AssertionError at AndroidShareReceiverTest.kt:85
+        Caused by: kotlin.NotImplementedError at AndroidShareReceiverTest.kt:85
+
+AndroidShareReceiverTest > ignoresLauncherIntent FAILED
+    kotlin.NotImplementedError at AndroidShareReceiverTest.kt:36
+
+AndroidShareReceiverTest > receivesTextAndPreservesDeliveryId FAILED
+    kotlin.NotImplementedError at AndroidShareReceiverTest.kt:40
+
+AndroidShareReceiverTest > receivesUrlAsTextWithoutDiscardingIt FAILED
+    kotlin.NotImplementedError at AndroidShareReceiverTest.kt:46
+
+AndroidShareReceiverTest > rejectsFileUrisInsteadOfReadingAppPrivatePaths FAILED
+    java.lang.AssertionError at AndroidShareReceiverTest.kt:73
+        Caused by: kotlin.NotImplementedError at AndroidShareReceiverTest.kt:73
+
+AndroidShareReceiverTest > importsMultipleAttachmentsAndTextAtomically FAILED
+    kotlin.NotImplementedError at AndroidShareReceiverTest.kt:58
+
+24 tests completed, 9 failed
+
+> Task :shareinbox:testAndroidHostTest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shareinbox:testAndroidHostTest'.
+> There were failing tests. See the report at: file://<project>/shareinbox/build/reports/tests/testAndroidHostTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 4m 26s
+20 actionable tasks: 20 executed

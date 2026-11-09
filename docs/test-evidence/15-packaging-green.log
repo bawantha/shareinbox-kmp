@@ -1,0 +1,173 @@
+Configuration 'jvmTestRuntimeClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+> Task :sample-android:preBuild UP-TO-DATE
+> Task :sample-android:preDebugBuild UP-TO-DATE
+> Task :sample-android:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sample-android:generateDebugResources UP-TO-DATE
+> Task :sample-android:packageDebugResources UP-TO-DATE
+> Task :sample-android:javaPreCompileDebug UP-TO-DATE
+> Task :sample-android:generateDebugAssets UP-TO-DATE
+> Task :sample-android:mergeDebugAssets UP-TO-DATE
+> Task :sample-android:compressDebugAssets UP-TO-DATE
+> Task :sample-android:desugarDebugFileDependencies UP-TO-DATE
+> Task :sample-android:mapDebugSourceSetPaths UP-TO-DATE
+> Task :sample-android:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :sample-android:extractDeepLinksDebug UP-TO-DATE
+> Task :sample-android:checkDebugDuplicateClasses UP-TO-DATE
+> Task :shareinbox:kmpPartiallyResolvedDependenciesChecker
+> Task :shareinbox:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sample-android:mergeExtDexDebug UP-TO-DATE
+> Task :sample-android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sample-android:validateSigningDebug UP-TO-DATE
+> Task :sample-android:writeDebugAppMetadata UP-TO-DATE
+> Task :sample-android:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :shareinbox:jvmProcessResources NO-SOURCE
+> Task :shareinbox:processJvmMainResources SKIPPED
+> Task :shareinbox:jvmTestProcessResources NO-SOURCE
+> Task :shareinbox:processJvmTestResources SKIPPED
+> Task :shareinbox:androidPreBuild UP-TO-DATE
+> Task :shareinbox:preAndroidMainBuild UP-TO-DATE
+> Task :shareinbox:androidJar UP-TO-DATE
+> Task :shareinbox:generateAndroidHostTestAssets UP-TO-DATE
+> Task :shareinbox:preAndroidHostTestBuild UP-TO-DATE
+> Task :shareinbox:mergeAndroidHostTestAssets UP-TO-DATE
+> Task :shareinbox:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :sample-android:checkDebugAarMetadata UP-TO-DATE
+> Task :shareinbox:checkAndroidHostTestAarMetadata UP-TO-DATE
+> Task :shareinbox:mapAndroidHostTestSourceSetPaths UP-TO-DATE
+> Task :shareinbox:generateAndroidHostTestResources UP-TO-DATE
+> Task :shareinbox:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :sample-android:processDebugNavigationResources UP-TO-DATE
+> Task :shareinbox:mergeAndroidHostTestResources UP-TO-DATE
+> Task :shareinbox:processAndroidMainManifest UP-TO-DATE
+> Task :sample-android:parseDebugLocalResources UP-TO-DATE
+> Task :sample-android:generateDebugRFile UP-TO-DATE
+> Task :shareinbox:processAndroidHostTestManifest UP-TO-DATE
+> Task :sample-android:compileDebugNavigationResources UP-TO-DATE
+> Task :sample-android:mergeDebugResources UP-TO-DATE
+> Task :sample-android:processDebugMainManifest UP-TO-DATE
+> Task :sample-android:processDebugManifest UP-TO-DATE
+> Task :sample-android:processDebugManifestForPackage UP-TO-DATE
+> Task :shareinbox:processAndroidHostTestResources UP-TO-DATE
+> Task :shareinbox:packageAndroidHostTestForUnitTest UP-TO-DATE
+> Task :shareinbox:generateAndroidHostTestConfig UP-TO-DATE
+> Task :shareinbox:processAndroidHostTestJavaRes NO-SOURCE
+> Task :sample-android:processDebugResources UP-TO-DATE
+> Task :shareinbox:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :shareinbox:compileKotlinJvm
+> Task :shareinbox:compileAndroidMain
+> Task :shareinbox:compileKotlinIosSimulatorArm64
+> Task :shareinbox:compileJvmMainJava NO-SOURCE
+> Task :shareinbox:jvmMainClasses
+> Task :shareinbox:jvmJar
+> Task :shareinbox:processAndroidMainJavaRes UP-TO-DATE
+> Task :shareinbox:iosSimulatorArm64ProcessResources NO-SOURCE
+> Task :shareinbox:iosSimulatorArm64MainKlibrary
+> Task :shareinbox:bundleAndroidMainClassesToRuntimeJar
+> Task :shareinbox:bundleAndroidMainClassesToCompileJar
+> Task :shareinbox:compileTestKotlinJvm
+> Task :sample-android:compileDebugKotlin
+> Task :sample-android:compileDebugJavaWithJavac NO-SOURCE
+> Task :sample-android:dexBuilderDebug UP-TO-DATE
+> Task :sample-android:processDebugJavaRes UP-TO-DATE
+> Task :sample-android:mergeDebugJavaResource UP-TO-DATE
+> Task :sample-android:mergeProjectDexDebug UP-TO-DATE
+> Task :shareinbox:compileTestKotlinIosSimulatorArm64
+> Task :shareinbox:compileJvmTestJava NO-SOURCE
+> Task :shareinbox:jvmTestClasses
+> Task :sample-android:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :shareinbox:jvmTest
+> Task :shareinbox:computeLocalPackageDependencyInputFiles UP-TO-DATE
+> Task :shareinbox:generateSyntheticLinkageSwiftPMImportProjectForCinteropsAndLdDump SKIPPED
+> Task :shareinbox:serializeSwiftPMDependenciesMetadataForLockFiles UP-TO-DATE
+> Task :shareinbox:generateUmbrellaPackageIdentifierBasedResolutionForDefault SKIPPED
+> Task :shareinbox:fetchUmbrellaPackageIdentifierForDefault SKIPPED
+> Task :shareinbox:syncPersistedPackageResolvedToSynthetic SKIPPED
+> Task :shareinbox:fetchSyntheticImportProjectPackages SKIPPED
+> Task :shareinbox:convertSyntheticImportProjectIntoDefFileIphonesimulator UP-TO-DATE
+> Task :shareinbox:compileAndroidHostTest
+> Task :shareinbox:linkDebugTestIosSimulatorArm64
+> Task :shareinbox:testAndroidHostTest
+> Task :shareinbox:iosSimulatorArm64Test
+> Task :shareinbox:compileKotlinIosArm64
+> Task :shareinbox:linkDebugFrameworkIosArm64
+> Task :shareinbox:assembleDebugIosFatFrameworkForShareInboxKitXCFramework SKIPPED
+> Task :shareinbox:linkDebugFrameworkIosSimulatorArm64
+> Task :shareinbox:assembleDebugIosSimulatorFatFrameworkForShareInboxKitXCFramework SKIPPED
+> Task :shareinbox:assembleDebugMacosFatFrameworkForShareInboxKitXCFramework SKIPPED
+> Task :shareinbox:assembleDebugTvosFatFrameworkForShareInboxKitXCFramework SKIPPED
+> Task :shareinbox:assembleDebugTvosSimulatorFatFrameworkForShareInboxKitXCFramework SKIPPED
+> Task :shareinbox:assembleDebugWatchosFatFrameworkForShareInboxKitXCFramework SKIPPED
+> Task :shareinbox:assembleDebugWatchosSimulatorFatFrameworkForShareInboxKitXCFramework SKIPPED
+
+> Task :shareinbox:assembleShareInboxKitDebugXCFramework
+xcframework successfully written out to: <project>/shareinbox/build/XCFrameworks/debug/ShareInboxKit.xcframework
+
+> Task :shareinbox:androidSourcesJar
+> Task :shareinbox:checkAndroidMainAarMetadata UP-TO-DATE
+> Task :shareinbox:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :shareinbox:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :shareinbox:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :sample-android:mergeDebugNativeLibs NO-SOURCE
+> Task :sample-android:stripDebugDebugSymbols NO-SOURCE
+> Task :shareinbox:extractAndroidMainAnnotations UP-TO-DATE
+> Task :shareinbox:prepareAndroidMainArtProfile UP-TO-DATE
+> Task :shareinbox:prepareLintJarForPublish UP-TO-DATE
+> Task :shareinbox:mergeAndroidMainJavaResource UP-TO-DATE
+> Task :shareinbox:syncAndroidMainLibJars
+> Task :shareinbox:bundleAndroidMainAar
+> Task :shareinbox:generateMetadataFileForAndroidPublication
+> Task :shareinbox:generatePomFileForAndroidPublication
+> Task :shareinbox:publishAndroidPublicationToLocalBuildRepository
+> Task :shareinbox:iosArm64Klib
+> Task :shareinbox:commonizeNativeDistribution UP-TO-DATE
+> Task :shareinbox:transformCommonMainDependenciesMetadata UP-TO-DATE
+> Task :shareinbox:metadataCommonMainProcessResources NO-SOURCE
+> Task :shareinbox:transformNativeMainDependenciesMetadata UP-TO-DATE
+> Task :shareinbox:metadataNativeMainProcessResources NO-SOURCE
+> Task :shareinbox:transformAppleMainDependenciesMetadata UP-TO-DATE
+> Task :shareinbox:metadataAppleMainProcessResources NO-SOURCE
+> Task :shareinbox:transformIosMainDependenciesMetadata UP-TO-DATE
+> Task :shareinbox:metadataIosMainProcessResources NO-SOURCE
+> Task :shareinbox:iosArm64SourcesJar
+> Task :shareinbox:generatePomFileForIosArm64Publication
+> Task :shareinbox:iosSimulatorArm64Klib
+> Task :shareinbox:iosSimulatorArm64SourcesJar
+> Task :shareinbox:generatePomFileForIosSimulatorArm64Publication
+> Task :shareinbox:jvmSourcesJar
+> Task :shareinbox:generateMetadataFileForJvmPublication
+> Task :shareinbox:generatePomFileForJvmPublication
+> Task :shareinbox:publishJvmPublicationToLocalBuildRepository
+> Task :shareinbox:generateProjectStructureMetadata UP-TO-DATE
+> Task :shareinbox:buildKotlinToolingMetadata UP-TO-DATE
+> Task :shareinbox:sourcesJar
+> Task :shareinbox:generatePomFileForKotlinMultiplatformPublication
+> Task :shareinbox:bundleLibRuntimeToDirAndroidMain
+> Task :sample-android:mergeLibDexDebug
+> Task :sample-android:packageDebug
+> Task :sample-android:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :sample-android:assembleDebug
+> Task :shareinbox:compileCommonMainKotlinMetadata
+> Task :shareinbox:metadataCommonMainClasses
+> Task :shareinbox:compileNativeMainKotlinMetadata NO-SOURCE
+> Task :shareinbox:metadataNativeMainClasses UP-TO-DATE
+> Task :shareinbox:compileAppleMainKotlinMetadata NO-SOURCE
+> Task :shareinbox:metadataAppleMainClasses UP-TO-DATE
+> Task :shareinbox:compileIosMainKotlinMetadata
+> Task :shareinbox:metadataIosMainClasses
+> Task :shareinbox:iosArm64MetadataElements
+> Task :shareinbox:generateMetadataFileForIosArm64Publication
+> Task :shareinbox:publishIosArm64PublicationToLocalBuildRepository
+> Task :shareinbox:iosSimulatorArm64MetadataElements
+> Task :shareinbox:generateMetadataFileForIosSimulatorArm64Publication
+> Task :shareinbox:publishIosSimulatorArm64PublicationToLocalBuildRepository
+> Task :shareinbox:allMetadataJar
+> Task :shareinbox:generateMetadataFileForKotlinMultiplatformPublication
+> Task :shareinbox:publishKotlinMultiplatformPublicationToLocalBuildRepository
+> Task :shareinbox:publishAllPublicationsToLocalBuildRepository
+
+BUILD SUCCESSFUL in 10s
+114 actionable tasks: 51 executed, 63 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html
